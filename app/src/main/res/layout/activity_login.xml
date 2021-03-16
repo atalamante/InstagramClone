@@ -9,6 +9,13 @@
     android:layout_margin="16dp"
     tools:context=".LoginActivity">
 
+    <ImageView
+        android:id="@+id/ivInstaHeader"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_weight="1"
+        app:srcCompat="@mipmap/ic_instaheader" />
+
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
@@ -22,6 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"/>
@@ -31,5 +40,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="@color/black"
         android:text="Login" />
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:text="Sign Up" />
+
 </LinearLayout>
