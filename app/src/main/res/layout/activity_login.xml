@@ -40,14 +40,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/blue"
         android:text="Login" />
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/purple"
         android:text="Sign Up" />
 
 </LinearLayout>

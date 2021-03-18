@@ -9,6 +9,13 @@
     android:layout_margin="16dp"
     tools:context=".MainActivity">
 
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:visibility="invisible" />
+
     <EditText
         android:id="@+id/etDescription"
         android:layout_width="match_parent"
@@ -20,6 +27,7 @@
         android:id="@+id/btnCaptureImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple"
         android:text="Take Picture" />
 
     <ImageView
@@ -32,6 +40,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSubmit"
+        android:backgroundTint="@color/purple"
         android:text="Submit" />
 
     <Button
@@ -39,7 +48,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/purple"
         android:text="Log Out" />
 
 </LinearLayout>
