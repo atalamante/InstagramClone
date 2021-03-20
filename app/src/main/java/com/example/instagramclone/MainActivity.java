@@ -162,6 +162,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 // run a background job and once complete
                 Log.i(TAG, "Post save was successful!");
+                Toast.makeText(MainActivity.this, "Successfully posted!", Toast.LENGTH_SHORT).show();
                 etDescription.setText("");
                 ivPostImage.setImageResource(0);
                 pb.setVisibility(ProgressBar.INVISIBLE);
